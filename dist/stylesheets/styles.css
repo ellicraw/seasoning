@@ -1,0 +1,31 @@
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+.background {
+  background: #F89D3C;
+}
+
+.test {
+    font-size: 5em;
+    margin-top: 25px;
+    text-align: center;
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from { opacity: 0;
+        transform: translate3d(0, -20%, 0);}
+  to   { opacity: 1;
+        transform: translate3d(0, 0, 0);}
+}
+
+.title {
+  color: black;
+  margin-top: 15px;
+}
