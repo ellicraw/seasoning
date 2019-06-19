@@ -7,8 +7,9 @@ a:hover {
 }
 
 body {
-  scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  scroll-padding-top: 80px;
+  scroll-snap-type: y mandatory;
 }
 
 section {
@@ -36,4 +37,12 @@ section {
 
 title{
   color: #FFE15E;
+}
+
+.bang {
+  text-align: center;
+  text-decoration: none;
+  font-size: 4.5em;
+  color: #FFE15E;
+
 }
